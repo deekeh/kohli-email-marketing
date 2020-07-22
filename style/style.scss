@@ -1,0 +1,23 @@
+#head {
+    min-height: 100vh;
+    // background-color: #ff0000;
+
+    #content {
+        padding-top: 20%;
+    }
+
+    #mail-types {
+        .card {
+            min-height: 280px;
+        }
+    }
+    #mail-types {
+        min-height: 100vh;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #main-image {
+        display: none;
+    }
+}
