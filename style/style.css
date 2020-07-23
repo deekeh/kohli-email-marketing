@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 #head {
   min-height: 100vh;
 }
@@ -10,9 +11,23 @@
 #head #mail-types {
   min-height: 100vh;
 }
+#head #testimonial .card {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+}
+#head #testimonial .carousel a {
+  background-color: #000000;
+  width: 30px;
+  max-height: 60px;
+  margin: auto;
+}
 
 @media only screen and (max-width: 768px) {
   #main-image {
+    display: none;
+  }
+
+  #testimonial .carousel a {
     display: none;
   }
 }
