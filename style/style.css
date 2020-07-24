@@ -5,11 +5,11 @@
 #head #content {
   padding-top: 20%;
 }
-#head #mail-types .card {
-  min-height: 280px;
-}
 #head #mail-types {
   min-height: 100vh;
+}
+#head #mail-types .card {
+  min-height: 280px;
 }
 #head #testimonial .card {
   font-family: "Dancing Script", cursive;
@@ -28,8 +28,17 @@
     display: none;
   }
 
+  .image {
+    display: none;
+  }
+
   #testimonial .carousel a {
     display: none;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .card-img-top {
+    display: none !important;
   }
 }
 
