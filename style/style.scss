@@ -12,8 +12,6 @@
         .card {
             min-height: 280px;
         }
-    }
-    #mail-types {
         min-height: 100vh;
     }
 
@@ -39,6 +37,12 @@
         display: none;
     }
 
+    // #middle {
+        .image {
+            display: none;
+        }
+    // }
+
     #testimonial {
         .carousel {
             a {
@@ -46,4 +50,12 @@
             }
         }
     }
+}
+
+@media only screen and (min-width: 768px) {
+    // #middle {
+        .card-img-top {
+            display:none !important;
+        }
+    // }
 }
