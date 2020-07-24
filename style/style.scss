@@ -30,6 +30,12 @@
             }
         }
     }
+
+    #clients {
+        img:hover {
+            background-color: #c3c3c3;
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {
