@@ -20,6 +20,9 @@ nav.navbar {
         .card {
             min-height: 280px;
         }
+        .card:hover {
+            background-color: #efefef;
+        }
         min-height: 100vh;
     }
 

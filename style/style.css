@@ -19,6 +19,9 @@ nav.navbar {
 #head #mail-types .card {
   min-height: 280px;
 }
+#head #mail-types .card:hover {
+  background-color: #efefef;
+}
 #head #testimonial .card {
   font-family: "Dancing Script", cursive;
   min-height: 300px;
