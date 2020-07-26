@@ -32,6 +32,12 @@ nav.navbar {
             font-family: 'Dancing Script', cursive;
             min-height: 300px;
             font-size: 1.5rem;
+            .card-body {
+                height: 100%;
+                background-image: url('../img/paper-plane.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
         }
         .carousel {
             a {
@@ -44,8 +50,11 @@ nav.navbar {
     }
 
     #clients {
+        img {
+            filter: grayscale(100%);
+        }
         img:hover {
-            background-color: #c3c3c3;
+            filter: grayscale(0%);
         }
     }
 }
