@@ -13,6 +13,28 @@ nav.navbar {
     min-height: 100vh;
     // background-color: #ff0000;
 
+    .section-title {
+        color: hsl(353, 83%, 55%);
+        text-align: center;
+    }
+
+    #first {
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
     #content {
         padding-top: 20%;
     }
@@ -56,6 +78,16 @@ nav.navbar {
         img:hover {
             filter: grayscale(0%);
         }
+    }
+
+    #tryforfree .card {
+        min-height: 200px;
+    }
+
+    #scrolltotop {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
     }
 }
 
