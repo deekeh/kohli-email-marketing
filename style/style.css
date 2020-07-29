@@ -11,6 +11,26 @@ nav.navbar {
 #head {
   min-height: 100vh;
 }
+#head .section-title {
+  color: #eb2d43;
+  text-align: center;
+}
+#head #first {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 #head #content {
   padding-top: 20%;
 }
@@ -45,6 +65,14 @@ nav.navbar {
 }
 #head #clients img:hover {
   filter: grayscale(0%);
+}
+#head #tryforfree .card {
+  min-height: 200px;
+}
+#head #scrolltotop {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
 }
 
 @media only screen and (max-width: 768px) {
